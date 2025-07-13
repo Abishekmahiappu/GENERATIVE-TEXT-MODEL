@@ -1,0 +1,44 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "06f319c4-0828-4eb5-83f0-a3f9e5752a92",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import { StrictMode } from 'react';\n",
+    "import { createRoot } from 'react-dom/client';\n",
+    "import App from './App.tsx';\n",
+    "import './index.css';\n",
+    "\n",
+    "createRoot(document.getElementById('root')!).render(\n",
+    "  <StrictMode>\n",
+    "    <App />\n",
+    "  </StrictMode>\n",
+    ");\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
